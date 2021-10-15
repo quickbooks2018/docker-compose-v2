@@ -36,6 +36,8 @@
   # docker compose --project-name django --profile app ps
 
   # docker compose --project-name django --profile app logs app
+  
+  # docker compose --project-name django --profile app pause app
 
   # docker compose --profile app up -d --build
 
