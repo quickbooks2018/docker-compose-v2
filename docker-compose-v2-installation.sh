@@ -43,9 +43,15 @@
   # PAUSE
   ########
   
-  # docker compose --project-name django --profile app pause app  # Blocks Traffic
+  # docker compose --project-name django --profile app pause app  # command suspends all processes in the specified containers
   
-  # docker compose --project-name django --profile app unpause app
+  # docker compose --project-name django --profile app unpause app # command un-suspends all processes in the specified containers
+  
+  ######
+  # PULL
+  ######
+  
+  # docker compose --project-name django --profile app pull   # pull the latest images
   
   # docker compose --project-name django --profile app top
 
