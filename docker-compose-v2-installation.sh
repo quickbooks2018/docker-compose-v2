@@ -31,7 +31,8 @@
 
   # Note: When a specific profile is mentioned, you must use mentioned below command
 
-  # docker compose -p app up -d --build
+  # docker compose --project-name django --profile app up -d --build
+
   # docker compose --profile app up -d --build
 
   # docker compose --profile app down
