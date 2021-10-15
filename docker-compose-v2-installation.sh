@@ -30,6 +30,8 @@
   # Build a Specific Profile
 
   # Note: When a specific profile is mentioned, you must use mentioned below command
+  
+  # docker compose --help
 
   # docker compose --project-name django --profile app up -d --build
 
@@ -41,7 +43,9 @@
   # PAUSE
   ########
   
-  # docker compose --project-name django --profile app pause app
+  # docker compose --project-name django --profile app pause app  # Blocks Traffic
+  
+  # docker compose --project-name django --profile app unpause app
 
   # docker compose --profile app up -d --build
 
