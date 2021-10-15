@@ -46,6 +46,8 @@
   # docker compose --project-name django --profile app pause app  # Blocks Traffic
   
   # docker compose --project-name django --profile app unpause app
+  
+  # docker compose --project-name django --profile app top
 
   # docker compose --profile app up -d --build
 
