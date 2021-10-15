@@ -1,4 +1,4 @@
-# version: "3.9" # Do not specify, you will get all the benifits of v2,v3 & new version
+# version: "3.9" # Do not specify, you will get all the benifits of v2,v3 & new version (both for Python & Golang)
 
 services:
   app:
