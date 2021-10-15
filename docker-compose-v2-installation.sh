@@ -29,3 +29,4 @@
   # Commands
   # Build a Specific Profile
   # docker compose -p app up -d --build
+  # docker compose --profile app up -d --build
