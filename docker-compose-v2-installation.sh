@@ -53,6 +53,8 @@
   
   # docker compose --project-name django --profile app pull   # pull the latest images
   
+  # docker compose --project-name django --profile app up -d --build
+  
   # docker compose --project-name django --profile app top
 
   # docker compose --profile app up -d --build
