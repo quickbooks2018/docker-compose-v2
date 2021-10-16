@@ -62,5 +62,13 @@
   # docker compose --project-name django --profile app down
 
   # docker compose ls
+  
+  ########
+  # Build
+  ########
+  
+  docker compose build app
+
+  docker images
 
 # End
