@@ -67,8 +67,15 @@
   # Build
   ########
   
-  docker compose build app
+  # docker compose build app
+  
+  ########################
+  # Up No Build No Profie
+  ########################
+  
+  # docker compose --project-name django up -d                     # Must Define Project Name with Docker Compose v2
+  
 
-  docker images
+  # docker images
 
 # End
